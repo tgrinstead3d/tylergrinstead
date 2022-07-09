@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="footer footer-center p-10 bg-emerald-900 text-white rounded">
+  <footer class="footer footer-center p-10 bg-neutral text-base-100 rounded">
     <div class="grid grid-flow-col gap-4">
       <a class="link link-hover">About Me</a>
       <a class="link link-hover">Portfolio</a>
