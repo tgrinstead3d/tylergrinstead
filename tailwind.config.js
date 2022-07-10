@@ -30,7 +30,12 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      alt: ['Qwitcher Grypen', 'cursive'],
+      alt2: ['Water Brush', 'cursive']
+    },
+    extend: {
+    },
   },
   plugins: [require("daisyui")],
 }
