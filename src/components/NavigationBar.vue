@@ -13,11 +13,12 @@
           <li><a>About Me</a></li>
           <li><a>Portfolio</a></li>
           <li><a>Blog</a></li>
+          <li><a>Contact Me</a></li>
         </ul>
       </div>
     </div>
     <div class="navbar-center">
-      <a class="btn btn-ghost normal-case text-5xl font-alt font-light">Tyler Grinstead</a>
+      <a class="btn btn-ghost normal-case text-3xl font-alt font-extralight">Tyler Grinstead</a>
     </div>
     <div class="navbar-end invisible xl:visible">
       <button class="btn btn-ghost flex flex-row hover:text-primary">

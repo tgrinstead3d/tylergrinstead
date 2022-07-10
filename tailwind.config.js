@@ -31,8 +31,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      alt: ['Qwitcher Grypen', 'cursive'],
-      alt2: ['Water Brush', 'cursive']
+      alt: ['Raleway', 'sans-serif']
     },
     extend: {
     },
