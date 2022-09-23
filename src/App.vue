@@ -1,12 +1,16 @@
 <script setup lang="ts">
 
-import HomeView from "@/views/HomeView.vue";
 
-
+import NavigationBar from "@/components/NavigationBar.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
- <HomeView />
+  <div class="min-h-screen flex flex-col justify-between">
+  <NavigationBar/>
+  <router-view/>
+  <Footer/>
+  </div>
 </template>
 
 <style>

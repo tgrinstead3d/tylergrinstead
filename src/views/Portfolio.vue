@@ -1,12 +1,10 @@
 <script setup lang="ts">
 
-import MainHero from "@/components/MainHero.vue";
-
 
 </script>
 
 <template>
-  <MainHero />
+<h1 class="h-screen mt-16">Portfolio</h1>
 </template>
 
 

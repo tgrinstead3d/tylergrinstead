@@ -3,14 +3,15 @@ module.exports = {
     themes: [
       {
         mytheme: {
+          "primary": "#333",
 
-          "primary": "#eab308",
+          // "primary": "#ff7849",
 
-          "secondary": "#facc15",
+          "secondary": "#f3f3f3",
 
-          "accent": "#3b82f6",
+          "accent": "#303030",
 
-          "neutral": "#3D4451",
+          "neutral": "#fff",
 
           "base-100": "#FFFFFF",
 
@@ -34,6 +35,9 @@ module.exports = {
       alt: ['Raleway', 'sans-serif']
     },
     extend: {
+      backgroundImage: {
+        'herobg': "url('./assets/herobg.png')"
+      }
     },
   },
   plugins: [require("daisyui")],
