@@ -10,9 +10,9 @@
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
         </label>
         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100/80 rounded-box w-52">
-          <li><router-link to="/about">About</router-link></li>
-          <li><router-link to="/portfolio">Portfolio</router-link></li>
-          <li><router-link to="/blog">Blog</router-link></li>
+          <li><router-link to="/about">About Me</router-link></li>
+          <li><router-link to="/portfolio">My Portfolio</router-link></li>
+          <li><router-link to="/resume">My Resume</router-link></li>
           <li><a href="mailto: tyler@tgdesign.io">Contact Me</a></li>
         </ul>
       </div>
@@ -33,7 +33,7 @@
     </div>
     <div class="navbar-center">
       <router-link to="/">
-      <span class="btn btn-ghost normal-case text-2xl font-alt font-light hover:bg-transparent hover:text-info transition transition-all duration-300 ease-in-out font-semibold"><span class="font-light mr-[.25em]">Tyler</span>Grinstead</span>
+      <span class="btn btn-ghost normal-case text-2xl font-alt font-light hover:bg-transparent hover:text-info transition transition-all duration-300 ease-in-out font-semibold"><span class="font-light mr-[.25em]">Tyler</span><span class="font-semibold">Grinstead</span></span>
       </router-link>
     </div>
     <div class="navbar-end invisible xl:visible">
